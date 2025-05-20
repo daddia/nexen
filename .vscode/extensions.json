@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+      "golang.Go",   
+      "eamodio.gitlens", 
+      "ms-azuretools.vscode-docker",
+      "editorconfig.editorconfig" 
+    ],
+    "unwantedRecommendations": [
+      "vscodevim.vim"                      // Vim emulation can conflict with modal editing preferences
+    ]
+  }
+  
