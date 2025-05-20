@@ -37,7 +37,9 @@ jobs:
         run: go fmt ./... | tee fmt.out && test -z "$(cat fmt.out)"
 
       - name: Run go vet
-        run: go work vet
+        run: |
+          go vet ./models/...
+          go vet ./services/connectors/...
 
       - name: Run golangci-lint
         run: golangci-lint run ./...
