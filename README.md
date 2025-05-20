@@ -28,18 +28,11 @@ nexen/
 │   ├── detection/              # Degradation detection service
 │   ├── evaluation/             # Complexity evaluator service
 │   └── connectors/             # Provider adapters & registry
-│       ├── common/             # Base LLM interfaces & types
-│       ├── openai/             # OpenAI adapter
-│       └── anthropic/          # Anthropic adapter
 │
 ├── models/                     # Shared DTOs & model metadata registry
-│
 ├── libs/                       # Shared libraries (logging, metrics, telemetry)
-│
 ├── tests/                      # End‑to‑end and integration tests
-│
 ├── infrastructure/             # IaC (Kubernetes manifests, Helm, Terraform)
-│
 ├── .github/                    # CI/CD workflows
 └── docs/                       # Architecture and contribution guides
 ```
