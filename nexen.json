@@ -1,0 +1,26 @@
+{
+  "$schema": "https://www.nexen.io/schema/v1.0.0/nexen.json",
+  "version": 1,
+  "name": "my nexen",
+  "port": 8080,
+  "cache_ttl": "3600s",
+  "timeout": "3s",
+    "read_timeout": 5,
+    "write_timeout": 10,
+  "extra_config": {
+    "logging": {
+      "level":  "DEBUG",
+      "prefix": "[NEXEN]",
+      "pretty": false,
+      "syslog": false,
+      "stdout": true
+      },
+    "redis": {
+      "address": "localhost:6379",
+      "db": 0,
+      "timeout": 5
+    }
+  }
+}
+
+
